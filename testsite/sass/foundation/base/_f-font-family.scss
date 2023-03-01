@@ -5,35 +5,41 @@
     $fontsize:0rem,
     $letterSpacing:normal,
     $lineHeight:normal,
+    $color:#333333,
     ){
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: $letterSpacing;
     line-height: $lineHeight;
     font-size: $fontsize;
+    color: $color;
 }
 
 @mixin font-kosugimaru-regular(
     $fontsize:0rem,
     $letterSpacing:normal,
     $lineHeight:normal,
+    $color:#333333,
     ){
-    font-family: '小杉丸', sans-serif;
+    font-family: 'Kosugi Maru', sans-serif;
     font-weight: 400;
     letter-spacing: $letterSpacing;
     line-height: $lineHeight;
     font-size: $fontsize;
+    color:  $color;
 }
 @mixin font-(
     $fontsize:0rem,
-    $letterSpacing:0px,
-    $lineHeight:0rem,
+    $letterSpacing:normal,
+    $lineHeight:normal,
+    $color:#333333,
     ){
-    font-family: a ;
-    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     letter-spacing: $letterSpacing;
     line-height: $lineHeight;
     font-size: $fontsize;
+    color: $color;
 }
 
 @mixin font-(

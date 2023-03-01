@@ -57,11 +57,13 @@
 
             &:hover {
                 background-color: #F8B129;
-                color: #ffffff;
+                color: #ffffff !important;
             }
 
             &--text {
-                @include font.font-roboto-regular($fontsize: 2rem);
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 2rem;
             }
         }
     }

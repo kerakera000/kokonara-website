@@ -5,24 +5,30 @@
     width: 100%;
     height:80rem;
     margin-bottom: 15rem;
+    margin-top: 10rem;
     @include flex.flex;
     &__text-box{
         width: 50%;
         height: 100%;
-        padding: 0 0 0 8rem;
+        padding: 0 0 0 5rem;
         position: relative;
         @include flex.flex($align-items:flex-start);
         flex-direction: column;
         &--title{
             position: relative;
-            color: #131311;
             z-index: 10;
-            @include font.font-kosugimaru-regular($fontsize:5rem,$letterSpacing:2px);
+            width: 68rem;
+            margin-left: auto;
+            margin-right: 10rem;
+            @include font.font-kosugimaru-regular($fontsize:5rem,$letterSpacing:2px,$lineHeight:7rem);
         }
         &--subtitle{
             position: relative;
             color: #252522;
             z-index: 10;
+            width: 68rem;
+            margin-left: auto;
+            margin-right: 10rem;
             @include font.font-kosugimaru-regular($fontsize:2.4rem,$lineHeight:5.4rem);
         }
         &--img-title-back{
@@ -67,8 +73,16 @@
         }
     }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (max-width: 1400px) {
     .kv{
-        margin-top: 10rem;
+        margin-top: 0%;
+        &__text-box{
+            &--title{
+                margin-right: 1rem;
+            }
+            &--subtitle{
+                margin-right: 1rem;
+            }
+        }
     }
 }
