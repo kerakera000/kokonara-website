@@ -245,6 +245,147 @@
             <p class="title__sub-text">WORKS</p>
         </div>
     </div>
-    <div></div>
+    <div class="works__swiper">
+        <div class="container">
+            <!-- Sliderを包むコンテナ要素 -->
+            <div class="swiper">
+                <!-- スライド要素を包む要素 -->
+                <div class="swiper-wrapper">
+                <!-- 各スライド -->
+                <div class="swiper-slide slide1">
+                    <div class="swiper-slide--img-box">
+                        <img class="swiper-slide--img-box--img" src="<?php echo get_stylesheet_directory_uri(); ?>/asset/images/works-img/higurashi.png" alt="">
+                    </div>
+                    <div class="swiper-slide--title">
+                        <h3 class="swiper-slide--title--text">コーティングから、アップロードまで一括管理</h3>
+                        <p class="swiper-slide--title--sub-text">株式会社ひぐらし不動産 / 不動産</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide2">
+                    <div class="swiper-slide--img-box">
+                        <img class="swiper-slide--img-box--img" src="<?php echo get_stylesheet_directory_uri(); ?>/asset/images/works-img/gim.png" alt="">
+                    </div>
+                    <div class="swiper-slide--title">
+                        <h3 class="swiper-slide--title--text">ポートフォリオ制作</h3>
+                        <p class="swiper-slide--title--sub-text">gim portfolio</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide3">
+                    <div class="swiper-slide--img-box">
+                        <img class="swiper-slide--img-box--img" src="<?php echo get_stylesheet_directory_uri(); ?>/asset/images/works-img/l-webdesine.png" alt="">
+                    </div>
+                    <div class="swiper-slide--title">
+                        <h3 class="swiper-slide--title--text">デザイン・コーティングから、アップロードまで一括管理</h3>
+                        <p class="swiper-slide--title--sub-text">L.WEB DESIGN</p>
+                    </div>
+                </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!--<div class="swiper-pagination"></div> ここではなく-->
+            </div>
+        <div class="swiper-pagination"></div>  <!--ここに書く-->
+        </div>
+    </div>
+</section>
+
+<section class="profile">
+    <div class="profile__title">
+        <div class="title">
+            <h2 class="title__main-text">プロフィール</h2>
+            <div class="title__line"></div>
+            <p class="title__sub-text">Profile</p>
+        </div>
+    </div>
+    <div class="profile__cnt">
+        <div class="profile__cnt--img-box-left">
+            <img class="profile__cnt--img-box-left--img" src="<?php echo get_stylesheet_directory_uri(); ?>/asset/images/profile-img/profile-left.png" alt="">
+        </div>
+        <div class="profile__cnt--img-box-right">
+            <img class="profile__cnt--img-box-right--img" src="<?php echo get_stylesheet_directory_uri(); ?>/asset/images/profile-img/profile-right.png" alt="">
+        </div>
+        <div class="profile__cnt--box">
+            <div class="profile-row">
+                <div class="profile-row--title">
+                    <h3 class="profile-row--title--text">グループ名</h3>
+                </div>
+                <div class="profile-row--text-box">
+                    <p class="profile-row--text-box--text">Solvide制作グループ</p>
+                </div>
+            </div>
+            <div class="profile__cnt--box--text"></div>
+            <div class="profile-row">
+                <div class="profile-row--title">
+                    <h3 class="profile-row--title--text">設立</h3>
+                </div>
+                <div class="profile-row--text-box">
+                    <p class="profile-row--text-box--text">2022年8月1日</p>
+                </div>
+            </div>
+            <div class="profile__cnt--box--text"></div>
+            <div class="profile-row">
+                <div class="profile-row--title">
+                    <h3 class="profile-row--title--text">代表</h3>
+                </div>
+                <div class="profile-row--text-box">
+                    <p class="profile-row--text-box--text">吉澤 紫魔</p>
+                </div>
+            </div>
+            <div class="profile__cnt--box--text"></div>
+            <div class="profile-row">
+                <div class="profile-row--title">
+                    <h3 class="profile-row--title--text">従業員</h3>
+                </div>
+                <div class="profile-row--text-box">
+                    <p class="profile-row--text-box--text">2人</p>
+                </div>
+            </div>
+            <div class="profile__cnt--box--text"></div>
+            <div class="profile-row">
+                <div class="profile-row--title">
+                    <h3 class="profile-row--title--text">お問い合わせ</h3>
+                </div>
+                <div class="profile-row--text-box">
+                    <p class="profile-row--text-box--text">Solvideココナラ</p>
+                </div>
+            </div>
+            <div class="profile__cnt--box--text"></div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="contact__cnt">
+        <div class="contact__cnt--img-box">
+            <div class="contact__cnt--img-box--item-right">
+                <img class="contact__cnt--img-box--item-right--img" src="<?php echo get_stylesheet_directory_uri(); ?>/asset/images/contact-img/contact-right.png" alt="">
+            </div>
+            <div class="contact__cnt--img-box--item-left">
+                <img class="contact__cnt--img-box--item-left--img" src="<?php echo get_stylesheet_directory_uri(); ?>/asset/images/contact-img/contact-left.png" alt="">
+            </div>
+            <div class="contact__cnt--img-box--size">
+                <img class="contact__cnt--img-box--size--img" src="<?php echo get_stylesheet_directory_uri(); ?>/asset/images/contact-img/contact-main.png" alt="">
+            </div>
+        </div>
+        <div class="display-content">
+            <div class="contact-title-box">
+                <h2 class="contact-title-box__text">魅力が伝わるには理由がある。そんなサイトをあなたに。</h2>
+            </div>
+            <div class="contact-cnt">
+                <div class="contact-cnt__text-box">
+                    <p class="contact-cnt__text-box--text">ご依頼、ご相談の方はココナラにて受け付けております。ご不明点等ございましたらお問い合わせください。</p>
+                </div>
+                <div class="contact-cnt__button-cnt">
+                    <div class="contact-cnt__button-cnt--box">
+                        <p class="contact-cnt__button-cnt--box--text">ココナラで依頼</p>
+                        <img class="contact-cnt__button-cnt--box--img" src="" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="contact-item">
+                <img class="contact-item__img" src="<?php echo get_stylesheet_directory_uri(); ?>/asset/images/profile-img/profile-right.png" alt="">
+            </div>
+        </div>
+    </div>
 </section>
 <?php get_footer(); ?>

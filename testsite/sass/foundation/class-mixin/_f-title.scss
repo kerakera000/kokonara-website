@@ -3,8 +3,8 @@
         width: auto;
         &__main-text{
             font-size: 3.5rem;
+            font-weight: 500;
             font-family: 'Roboto', sans-serif;
-            font-weight: 400;
             color:  black;
         }
         &__line{
@@ -14,6 +14,8 @@
             background:linear-gradient(to right, #F8A300, #F4CF7D);
         }
         &__sub-text{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
             font-size: 2.4rem;
             color: black;
         }

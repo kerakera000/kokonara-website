@@ -9,9 +9,13 @@
 		<link rel="stylesheet" href="<?php echo get_theme_file_uri('asset/style.css'); ?>">
 		<link rel="stylesheet" href="<?php echo get_theme_file_uri('style.css'); ?>">
 
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 		<title><?php wp_title(); ?> test site</title>
 

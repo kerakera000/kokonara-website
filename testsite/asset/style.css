@@ -535,6 +535,77 @@ html {
   height: 7rem;
 }
 
+.footer {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  background-color: #F7F7F7;
+  flex-direction: column;
+  margin-top: 15rem;
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer__title {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  width: 23rem;
+  height: 10rem;
+}
+.footer__title--img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer__nav {
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer__nav--text-box {
+  text-align: center;
+  width: 20rem;
+}
+.footer__nav--text-box--text {
+  font-size: 2.5rem;
+}
+.footer__sns {
+  margin-top: 6rem;
+  width: 100%;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer__sns--insta {
+  width: 5rem;
+  height: 5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer__sns--insta--img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer__sns--twitter {
+  width: 5rem;
+  height: 5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer__sns--twitter--img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .kv {
   width: 100%;
   height: 80rem;
@@ -661,8 +732,8 @@ html {
 }
 .service__title .title__main-text {
   font-size: 3.5rem;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   color: black;
 }
 .service__title .title__line {
@@ -672,6 +743,8 @@ html {
   background: linear-gradient(to right, #F8A300, #F4CF7D);
 }
 .service__title .title__sub-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 2.4rem;
   color: black;
 }
@@ -786,7 +859,7 @@ html {
   justify-content: center;
 }
 .service__web--content .web__body .display-content .web__body--text-box--text {
-  width: 100%;
+  width: 80%;
   font-size: 1.6rem;
   font-family: "小杉丸", sans-serif;
   font-weight: 400;
@@ -936,8 +1009,8 @@ html {
 }
 .flow__title .title__main-text {
   font-size: 3.5rem;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   color: black;
 }
 .flow__title .title__line {
@@ -947,6 +1020,8 @@ html {
   background: linear-gradient(to right, #F8A300, #F4CF7D);
 }
 .flow__title .title__sub-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 2.4rem;
   color: black;
 }
@@ -1036,8 +1111,8 @@ html {
 }
 .works__title .title__main-text {
   font-size: 3.5rem;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   color: black;
 }
 .works__title .title__line {
@@ -1047,6 +1122,388 @@ html {
   background: linear-gradient(to right, #F8A300, #F4CF7D);
 }
 .works__title .title__sub-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 2.4rem;
   color: black;
+}
+.works__swiper {
+  width: 100%;
+  margin-top: 5rem;
+  /* ページネーション */
+}
+.works__swiper .container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  position: relative;
+}
+.works__swiper .swiper {
+  width: 100%;
+  height: 80rem;
+  margin: 0.5rem auto;
+}
+.works__swiper .swiper-button-next {
+  width: 10rem;
+  height: 10rem;
+  right: 26rem;
+  border-radius: 50%;
+  transform: translateY(-8rem);
+  background-color: rgba(32, 32, 32, 0.801);
+  color: white;
+}
+.works__swiper .swiper-button-prev {
+  width: 10rem;
+  height: 10rem;
+  left: 26rem;
+  border-radius: 50%;
+  transform: translateY(-8rem);
+  background-color: rgba(32, 32, 32, 0.801);
+  color: white;
+}
+.works__swiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-weight: bold;
+}
+.works__swiper .swiper-slide--img-box {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.works__swiper .swiper-slide--img-box--img {
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+}
+.works__swiper .swiper-slide--title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  color: #333333;
+  margin-top: 3rem;
+}
+.works__swiper .swiper-slide--title--text {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.9rem;
+}
+.works__swiper .swiper-slide--title--sub-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.works__swiper .swiper-pagination-bullets.swiper-pagination-horizontal,
+.works__swiper .swiper-pagination-custom,
+.works__swiper .swiper-pagination-fraction {
+  bottom: -2rem;
+}
+.works__swiper .swiper-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  gap: 1.5rem;
+}
+.works__swiper .swiper-slide-prev {
+  transform: scale(0.7) translateZ(0) !important;
+}
+.works__swiper .swiper-slide-next {
+  transform: scale(0.7) translateZ(0) !important;
+}
+.works__swiper .swiper-pagination-bullet {
+  width: 5rem;
+  height: 1rem;
+  border-radius: 3px;
+  background-color: #141414;
+}
+.works__swiper .swiper-pagination-bullet-active {
+  background-color: #F8B129;
+}
+
+.profile {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  margin-top: 20rem;
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+.profile__title {
+  width: 80%;
+  display: flex;
+  gap: 0rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile__title .title {
+  width: auto;
+}
+.profile__title .title__main-text {
+  font-size: 3.5rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.profile__title .title__line {
+  width: 100%;
+  height: 2px;
+  margin: 1rem 0;
+  background: linear-gradient(to right, #F8A300, #F4CF7D);
+}
+.profile__title .title__sub-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem;
+  color: black;
+}
+.profile__cnt {
+  width: 100%;
+  height: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.profile__cnt--img-box-left {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 5rem;
+  top: 0rem;
+}
+.profile__cnt--img-box-left--img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.profile__cnt--img-box-right {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 5rem;
+  bottom: 0rem;
+}
+.profile__cnt--img-box-right--img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.profile__cnt--box {
+  width: 60%;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.profile__cnt--box .profile-row {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile__cnt--box .profile-row--title {
+  width: 35rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile__cnt--box .profile-row--title--text {
+  font-size: 2.4rem;
+}
+.profile__cnt--box .profile-row--text-box {
+  width: 40rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile__cnt--box .profile-row--text-box--text {
+  font-size: 2.4rem;
+}
+.profile__cnt--box--text {
+  width: 73%;
+  height: 2px;
+  margin: 5rem 0;
+  background: linear-gradient(to right, #F8A300, #a8a7a4);
+}
+
+.contact {
+  width: 100%;
+  height: 80rem;
+  margin-top: 20rem;
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact__cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact__cnt--img-box {
+  width: 45%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact__cnt--img-box--item-right {
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  right: -11rem;
+  bottom: 0rem;
+  z-index: -1;
+}
+.contact__cnt--img-box--item-right--img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.contact__cnt--img-box--item-left {
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  left: -10rem;
+  top: -13rem;
+  z-index: -1;
+}
+.contact__cnt--img-box--item-left--img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.contact__cnt--img-box--size {
+  width: 40rem;
+  height: 100%;
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact__cnt--img-box--size--img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.contact__cnt .display-content {
+  display: flex;
+  gap: 0rem;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 45%;
+  height: 100%;
+  padding: 10rem 0;
+  position: relative;
+}
+.contact__cnt .display-content .contact-title-box {
+  width: 100%;
+  display: flex;
+  gap: 0rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contact__cnt .display-content .contact-title-box__text {
+  text-align: center;
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+  line-height: 7rem;
+  font-size: 4.5rem;
+}
+.contact__cnt .display-content .contact-cnt {
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  flex-direction: column;
+}
+.contact__cnt .display-content .contact-cnt__text-box {
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 3rem 0 6rem;
+}
+.contact__cnt .display-content .contact-cnt__text-box--text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 5rem;
+  text-align: center;
+}
+.contact__cnt .display-content .contact-cnt__button-cnt {
+  width: 90%;
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact__cnt .display-content .contact-cnt__button-cnt--box {
+  width: 34rem;
+  height: 6rem;
+  background: linear-gradient(to right, #F8A300, #f0cf87);
+  border-radius: 3rem;
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact__cnt .display-content .contact-cnt__button-cnt--box--text {
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 2rem;
+}
+.contact__cnt .display-content .contact-item {
+  width: 30rem;
+  height: 30rem;
+  position: absolute;
+  bottom: 8rem;
+  right: 4rem;
+  z-index: -1;
+}
+.contact__cnt .display-content .contact-item__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=style.css.map */
